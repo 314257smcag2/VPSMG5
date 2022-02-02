@@ -1,7 +1,7 @@
 services:
-    VPSMG:
+    VPSMG5:
         public: true
-        container_name: VPSMG
+        container_name: VPSMG5
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
             - 6080:6080
